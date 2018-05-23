@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>Cookie 使用の同意を得てから Google Analytics のトラッキングを有効にするサンプル</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<link rel="stylesheet" href="https://yarn.pm/normalize.css">
+<style>
+body {
+  background: white;
+  color: black;
+  font-family: -apple-system, 'BlinkMacSystemFont', '.SFNSDisplay-Regular', '游ゴシック Medium', 'Yu Gothic Medium', 'YuGothic M', '游ゴシック', 'Yu Gothic', '游ゴシック体', YuGothic, 'メイリオ', Meiryo, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', Verdana, Arial, Sans-Serif;
+  font-size: .875rem;
+  line-height: 1.5;
+  margin: 2em;
+  padding: 0;
+}
+h1 {
+  font-size: 1.25rem;
+  margin: 2em 0;
+}
+hr {
+  border: none;
+  border-top: 1px solid gray;
+  margin: 3em 0;
+}
+button {
+  font-family: inherit;
+}
+</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXX-Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-XXXX-Y');
+</script>
+
+</head>
+<body>
+
+<h1>Cookie 使用の同意を得てから Google Analytics のトラッキングを有効にするサンプル</h1>
+
+<p>Google Analytics を導入している Web サイトにおいて、ユーザー訪問時にオプトイン / オプトアウトを選択可能な通知を表示し、その選択によってトラッキングコードの有効 / 無効を切り替える JavaScript のサンプル。</p>
+<p>詳しくは下記のリンク先をご覧ください。</p>
+<ul>
+<li><a href="https://hyper-text.org/archives/2018/05/google_analytics_cookie_opt_in.shtml" target="_blank">Cookie 使用の同意を得てから Google Analytics のトラッキングを有効にする - WWW Watch</a></li>
+</ul>
+
+<hr>
+
+<p><button id="name-ga-cookie-reset-btn">Cookie 受け入れの設定をリセット</button></p>
+
+<script src="js/ga-cookie-opt-in.js"></script>
+
+</body>
+</html>

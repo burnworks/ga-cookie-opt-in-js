@@ -83,3 +83,9 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# etc
+package.json
+package-lock.json
+gulpfile.js
+docs/
