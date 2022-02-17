@@ -2,6 +2,9 @@
 
 Cookie 使用の同意を得てから Google Analytics のトラッキングを有効にする JavaScript のサンプル
 
+2022-02-17  
+全面的に書き直した [ga-cookie-opt-in-js-v2](https://github.com/burnworks/ga-cookie-opt-in-js-v2) を公開しています。
+
 ## 詳しい解説
 
 - [Cookie 使用の同意を得てから Google Analytics のトラッキングを有効にする - WWW Watch](https://hyper-text.org/archives/2018/05/google_analytics_cookie_opt_in.shtml)
